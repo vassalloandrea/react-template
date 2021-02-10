@@ -1,0 +1,25 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "React template build from scratch",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vassalloandrea/react-template.git"
+  },
+  "keywords": [
+    "react",
+    "frontend",
+    "tailwindcss",
+    "typescript"
+  ],
+  "author": "Andrea Vassallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vassalloandrea/react-template/issues"
+  },
+  "homepage": "https://github.com/vassalloandrea/react-template#readme"
+}
