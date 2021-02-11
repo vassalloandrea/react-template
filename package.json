@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/vassalloandrea/react-template/issues"
   },
-  "homepage": "https://github.com/vassalloandrea/react-template#readme"
+  "homepage": "https://github.com/vassalloandrea/react-template#readme",
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
 }
