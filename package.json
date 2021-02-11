@@ -4,6 +4,7 @@
   "description": "React template build from scratch",
   "main": "index.ts",
   "scripts": {
+    "start": "webpack serve --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/vassalloandrea/react-template#readme",
   "devDependencies": {
-    "typescript": "^4.1.5"
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2"
   }
 }
