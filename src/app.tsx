@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-const App = () => (
+const App: React.FC = () => (
   <div className="App">
     <h1> Hello, World! </h1>
   </div>

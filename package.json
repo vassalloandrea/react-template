@@ -5,7 +5,9 @@
   "main": "./src/index.tsx",
   "scripts": {
     "start": "webpack serve --mode=development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --color ./src",
+    "lint:fix": "eslint --fix ./src"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,10 @@
     "@types/react": "^17.0.1",
     "@types/react-dom": "^17.0.0",
     "@types/webpack": "^4.41.26",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0",
     "ts-loader": "^8.0.17",
     "typescript": "^4.1.5",
     "webpack": "^5.21.2",
