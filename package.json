@@ -11,7 +11,8 @@
     "lint": "eslint --color ./src",
     "lint:fix": "eslint --fix ./src",
     "format:check": "prettier --check ./src",
-    "format:fix": "prettier --write ./src"
+    "format:fix": "prettier --write ./src",
+    "coverage:push": "codecov"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "@types/webpack": "^4.41.26",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
+    "codecov": "^3.8.1",
     "cypress": "^6.5.0",
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
