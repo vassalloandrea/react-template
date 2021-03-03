@@ -9,7 +9,7 @@ Object {
         class="App"
       >
         <h1>
-           Hello, World! 
+          Hello, World!
         </h1>
       </div>
     </div>
@@ -19,7 +19,7 @@ Object {
       class="App"
     >
       <h1>
-         Hello, World! 
+        Hello, World!
       </h1>
     </div>
   </div>,
