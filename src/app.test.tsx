@@ -1,7 +1,7 @@
 import React from 'react'
 
-import render from '../libs/testing-support'
-import App from '.'
+import render from './libs/testing-support'
+import App from './app'
 
 describe('App', () => {
   it('renders correctly', () => {

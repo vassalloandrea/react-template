@@ -1,6 +1,6 @@
 # React with TS template
 
-[![codecov](https://codecov.io/gh/vassalloandrea/react-template/branch/master/graph/badge.svg?token=F38EP8I67R)](undefined)
+[![codecov](https://codecov.io/gh/vassalloandrea/react-template/branch/main/graph/badge.svg?token=FDMIA9PIGN)](https://codecov.io/gh/vassalloandrea/react-template)
 
 This is the template that I usually use to create a new React project from scratch removing
 the complex boilerplate added by other tools.
@@ -26,6 +26,10 @@ Each PR or push on the main branch will trigger the CI that runs:
 - The Prettier formatter
 
 and push the Jest coverage on CodeCov.
+
+## Basic development style
+
+The application uses the [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) for the component structure.
 
 ## Running Locally
 

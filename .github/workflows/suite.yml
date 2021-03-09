@@ -32,8 +32,5 @@ jobs:
       - name: Run Jest
         run: npm run test:unit
 
-      - name: Run web vitals
-        run: npm run test:unit
-
       - name: Push the coverage
         run: npm run coverage:push -- --token=${{ secrets.CODECOV_TOKEN }}

@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Button from './atoms/button'
+
 const App: React.FC = () => (
   <div className="App">
-    <h1>Hello, World!</h1>
+    <Button onClick={() => alert('Hello world!')}>Click me!</Button>
   </div>
 )
 

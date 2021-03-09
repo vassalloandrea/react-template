@@ -5,7 +5,15 @@ context('Homepage', () => {
     cy.visit('/')
   })
 
-  it('shows the hello world heading', () => {
-    cy.get('h1').should('have.text', 'Hello, World!')
+  it('shows the alert when the button is clicked', () => {
+    const alertStub = cy.stub()
+    cy.on('window:alert', alertStub)
+
+    cy.get('button')
+      .contains('Click me!')
+      .click()
+      .then(() => {
+        expect(alertStub.getCall(0)).to.be.calledWith('Hello world!')
+      })
   })
 })
